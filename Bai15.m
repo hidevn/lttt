@@ -1,0 +1,21 @@
+%Generate mat in range [a,b]: a + (b-a)*rand(size)
+fprintf('Ma tran A 4x4 co gia tri nguyen ngau nhien nam trong khoang [-10, 10]: \n');
+A = 10  - round(20* rand(4,4));
+disp(A);
+fprintf('1.15.1) Cong them 10 vao cac phan tu o dong 1 va dong 2, gan ket qua cho B, B = \n');
+B = A;
+B([1 2], :) = B([1 2], :) + 10;
+disp(B);
+fprintf('1.15.2) Cong them 10 vao cac phan tu o cot 1 va cot 4, gan ket qua cho C, C = \n');
+C = A;
+C(:, [1 4]) = C(:, [1 4]) + 10;
+disp(C);
+fprintf('1.15.3) Tinh nghich dao cua moi phan tu khac 0, gan ket qua cho D, D = \n');
+D = A;
+D(D ~= 0) = D(D ~= 0).^(-1);
+disp(D);
+fprintf('1.15.4) Lay can bac hai moi phan tu duong, gan ket qua cho E, E = \n');
+% E = arrayfun(@(x) (x > 0)*sqrt(x) + (x <= 0)*x , A);
+E = A;
+E(E > 0) = sqrt(E(E > 0));
+disp(E);
