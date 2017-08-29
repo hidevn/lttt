@@ -1,0 +1,16 @@
+x = [2 -5 1 6];
+fprintf('1.9.1) Cong them 16 vao tat ca cac phan tu: \n');
+x(:) = x(:) + 16;
+disp(x);
+x = [2 -5 1 6];
+fprintf('1.9.2) Cong them 3 vao tat ca cac phan tu o vi tri le: \n');
+x(1:2:end) = x(1:2:end) + 3;
+disp(x);
+x = [2 -5 1 6];
+fprintf('1.9.3) Lay can bac hai cua tat ca cac phan tu co gia tri duong: \n');
+x(x > 0) = sqrt(x(x>0));
+disp(x);
+x = [2 -5 1 6];
+fprintf('1.9.4) Binh phuong tat ca phan tu: \n');
+x = x.^2;
+disp(x);
