@@ -1,0 +1,10 @@
+x = [3 1 5 7 9 2 6];
+disp(x(3));
+disp(x(1:7));
+disp(x(1:end));
+disp(x(1:end-1));
+disp(x(6:-2:1));
+disp(x([1 6 2 1 1]));
+disp(sum(x));
+disp(min(x));
+disp(max(x));
