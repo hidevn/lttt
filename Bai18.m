@@ -1,6 +1,7 @@
 x = [1 4 8];
 y = [2 1 5];
 A = [2 7 9 7 ; 3 1 5 6 ; 8 1 2 5];
+fprintf('1.8.1) khong hop le \n');
 fprintf('1.8.2) \n');
 disp( [x;y]);
 fprintf('1.8.3) \n');
