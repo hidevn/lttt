@@ -1,6 +1,10 @@
 a = 36;
 b = 15;
+fprintf('1.1.3) mod(a,b):  \n');
 disp(mod(a,b));
+fprintf('1.1.3) rem(a,b):  \n');
 disp(rem(a,b));
+fprintf('1.1.3) gcd(a,b):  \n');
 disp(gcd(a,b));
+fprintf('1.1.3) lcm(a,b):  \n');
 disp(lcm(a,b));

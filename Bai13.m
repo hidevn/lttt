@@ -1,6 +1,12 @@
+fprintf('1.3.1) \n');
 disp(1 & -1);
+fprintf('1.3.2) \n');
 disp(13 & (-6));
+fprintf('1.3.3) \n');
 disp(0 < -20);
+fprintf('1.3.4) \n');
 disp(0 <= 0.2 <= 0.4);
+fprintf('1.3.5) \n');
 disp(5 > 4 > 3);
+fprintf('1.3.6) \n');
 disp(2 > 3 & 1);

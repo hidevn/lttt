@@ -1,8 +1,14 @@
 x = 1:10;
 y = [3 1 5 6 8 2 9 4 7 0];
+fprintf('1.7.1) \n');
 disp((x>3)&(x<8));
+fprintf('1.7.2) \n');
 disp(x(x>5));
+fprintf('1.7.3) \n');
 disp(y(x<=4));
+fprintf('1.7.4) \n');
 disp(x((x<2)|(x>=8)));
+fprintf('1.7.5) \n');
 disp(y((x<2)|(x>=8)));
+fprintf('1.7.6) \n');
 disp(x(y<0));
