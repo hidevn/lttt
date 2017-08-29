@@ -19,3 +19,8 @@ disp(a|(a))
 disp('          a hoac a')
 fprintf('1.6.6)')
 disp(b&(b))
+disp('          b va b')
+fprintf('1.6.7)')
+a=b==a;
+disp(a)
+disp('          return b==a r gán vào a')
