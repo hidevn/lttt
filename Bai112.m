@@ -1,7 +1,7 @@
 x = [3 2 6 8]';
 y = [4 1 3 5]';
-fprintf('1.12.1) Lay tong cac phan tu c?a x them vao tung phan tu cua y\n');
-disp(x+y);
+fprintf('1.12.1) Lay tong cac phan tu cua x them vao tung phan tu cua y\n');
+disp(sum(x)+y);
 fprintf('1.12.2) Luy thua moi phan tu cua x voi so mu la cac phan tu cua y\n');
 disp(x.^y);
 fprintf('1.12.3) Chia cac phan tu cua tuong ung cua y va x\n');
