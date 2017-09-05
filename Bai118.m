@@ -1,0 +1,14 @@
+x= -pi:0.1:pi;
+disp(x);
+y = x+sin(x);
+subplot(211);
+plot(x,y,'m');
+title('x+sin(x) màu tim');
+xlabel('Truc x');
+ylabel('Truc y');
+subplot(212);
+x=sym('x');
+fplot(x^2*sin(x),[-pi,pi],'r');
+title('x^2*sin(x) màu do');
+xlabel('Truc x');
+ylabel('Truc y');

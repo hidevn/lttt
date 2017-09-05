@@ -1,0 +1,10 @@
+x=linspace(0,2*pi);
+y = sin(x);
+subplot(131);
+plot(x,y,'m');
+y = sin(x+pi/2);
+subplot(132);
+plot(x,y,'y');
+y = sin(x+pi/3);
+subplot(133);
+plot(x,y,'b');
