@@ -1,3 +1,5 @@
-% Thuc hien nhan [A_11 A_12; 0 A_22] voi [A_11^-1 -A_11^1*A_12*A_22^-1; 0
-% A_22^-1]
-% Ta thu duoc ma tran don vi => dpcm
+%xet A * A^(-1) = A^(-1) * A, ta duoc
+% A * A^(-1) = [ A11* A11^(-1)  -A12* A22^(-1)+ A12* A22^(-1); 0  A22* A22^(-1)]
+%            = [ 1 0; 0 1] = I
+% => dieu phai chung minh
+
