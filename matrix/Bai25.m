@@ -1,3 +1,9 @@
+% 1, 2) Thuc hien nhan binh thuong.
+% 4) Hien nhien.
+% 5) Dieu kien: Aij*Bjk la thuc hien duoc voi moi i, j, k
+% 6) Thuc hien phep nhan ma tran khoi, de dang thu duoc dieu phai chung
+% minh.
+
 A11 = [1 2 -3; 2 0 -1];
 A12 = [-3 1; -1 2];
 A21 = [-1 1 -1];
