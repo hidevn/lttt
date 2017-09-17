@@ -1,0 +1,11 @@
+syms x real;
+f=x^5+3*x^4-3*x+7;
+fprintf('2.2.1)     ');
+disp(diff(f));
+fprintf('2.2.2) \n');
+fprintf('f(4)= ');
+disp(subs(f,x,4));
+fprintf('f''(4)= ');
+disp(subs(diff(f),x,4));
+fprintf('2.2.3)     ');
+disp(solve(diff(f)));

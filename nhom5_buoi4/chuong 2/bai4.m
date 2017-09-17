@@ -1,0 +1,15 @@
+syms x;
+fprintf('2.4.1) \n');
+fprintf('  lenh int: ');
+disp(int(sqrt(1+(sin(x))^2),0,pi));
+fprintf('  lenh quadl: ');
+f=@(x) sqrt(1+(sin(x)).^2);
+y=quadl(f,0,pi);
+disp(y);
+fprintf('2.4.2) \n');
+fprintf('  lenh int: ');
+disp(int(sqrt(1+(sin(x))^4),0,pi));
+fprintf('  lenh quadl: ');
+g=@(x) sqrt(1+(sin(x)).^4);
+z=quadl(g,0,pi);
+disp(z);

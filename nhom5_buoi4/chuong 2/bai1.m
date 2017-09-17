@@ -1,0 +1,11 @@
+syms x a b;
+fprintf('bai 2.1.1)     ');
+disp(limit(sin(sqrt(x+1))-sin(sqrt(x)),x,+inf));
+fprintf('bai 2.1.2)     ');
+disp(limit((1-cos(x))/x^2,x,pi));
+fprintf('bai 2.1.3)     ');
+disp(limit((sin(x)-sin(a))/(x-a),x,a));
+fprintf('bai 2.1.4)     ');
+disp(limit(sin(3*x)/sin(4*x),x,pi));
+fprintf('bai 2.1.5)     ');
+disp(limit(log(cos(a*x))/log(cos(b*x)),x,0));
